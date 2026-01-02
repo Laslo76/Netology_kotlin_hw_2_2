@@ -1,6 +1,6 @@
-fun main () {
-    var likes: Int = 11
-    var lasltNumber = likes.mod(10)
-    var postfix:String = if (lasltNumber==1 && likes != 11) "человеку"  else "людям"
+fun main() {
+    val likes: Int = 1111
+
+    val postfix:String = if (likes % 10 == 1 && likes % 100 != 11) "человеку"  else "людям"
     println("Понравилось $likes $postfix")
 }
